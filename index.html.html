@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moringa Bio - Produits Naturels Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h2><i class="fas fa-leaf"></i> Moringa Bio</h2>
+            </div>
+            <nav class="nav">
+                <a href="#home">Accueil</a>
+                <a href="#products">Produits</a>
+                <a href="#about">A propos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="cart-icon" id="cartIcon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Découvrez la Puissance du Moringa</h1>
+            <p>Produits 100% naturels et bio pour votre santé et bien-être. Qualité premium garantie.</p>
+            <a href="#products" class="cta-btn">Acheter Maintenant</a>
+        </div>
+        <div class="hero-image">
+            <img src="image/image4.webp" alt="Moringa">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Nos Produits Moringa</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Panier</h2>
+            <div id="cartItems">
+                <p>Votre panier est vide.</p>
+            </div>
+            <div class="cart-total">
+                <h3>Total: <span id="cartTotal">0 FCFA</span></h3>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">Passer à la caisse</button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> Contactez nous whatsapp ou appel : <strong>+226 78 88 85 72</strong> / <strong>+226 77 18 76 12</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Moringa Bio. Tous droits réservés. Livraison dans tout le Monde.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
