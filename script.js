@@ -4,28 +4,28 @@ const products = [
         id: 1,
         name: 'Baume Moringa',
         price: 750,
-        image: 'image/image1.jpeg',
+        image: 'image1.jpeg',
         description: 'Baume naturel apaisant pour les douleurs'
     },
     {
         id: 2,
         name: 'Savon Moringa',
         price: 1000,
-        image: 'image/image3.jpeg',
+        image: 'image3.jpeg',
         description: 'Savon hydratant contre les imperfections cutanes'
     },
     {
         id: 3,
         name: 'Poudre Moringa 1kg',
         price: 10000,
-        image: 'image/image5.jpg',
+        image: 'image5.jpg',
         description: 'Poudre pure 100% naturelle (1kg)'
     },
     {
         id: 4,
         name: 'Pommade Corps Moringa',
         price: 1000,
-        image: 'image/image2.jpeg',
+        image: 'image2.jpeg',
         description: 'Pommade nourrissante pour tout le corps'
     }
 ];
